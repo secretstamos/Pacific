@@ -1,0 +1,1 @@
+weapon_on_cooldown = false;
