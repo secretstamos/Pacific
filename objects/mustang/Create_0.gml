@@ -1,9 +1,22 @@
 //Sprites
-sprite_side = mustang_3;
-sprite_down = mustang3_up;
-sprite_up = mustang3_down;
-sprite_turning_up = mustang3_turndown;
-sprite_turning_down = mustang3_turning;
+sprite_e = mustang_e;
+sprite_n = mustang_n;
+sprite_ne = mustang_ne;
+sprite_s = mustang_s;
+sprite_se = mustang_se;
+
+//Eirframes parts
+eirframe_wings = instance_create_layer(x, y, layer, part_eirframe_wings_laminar);
+eirframe_engine = instance_create_layer(x, y, layer, part_eirframe_engine_propeller_alisturm);
+eirframe_rudder = instance_create_layer(x, y, layer, part_eirframe_rudder_balanced);
+eirframe_chasis = instance_create_layer(x, y, layer, part_eirframe_chasis_mustang);
+
+eirframe_parts = [
+eirframe_engine,
+eirframe_rudder,
+eirframe_wings,
+eirframe_chasis
+];
 
 // Eirframe Physics variables
 eirframe_weight = 3;
@@ -19,15 +32,14 @@ eirframe_eirnaut = 1;
 eirframe_armor = 1;
 
 //Eirframe Engine variables
-eirframe_engine = instance_create_layer(x, y, layer, item_eirframe_engine_propeller_merlin);
 current_thrust = eirframe_engine.engine_thrust;
 
 //Eirframe Weapon variables
 eirframe_primary_weapons = [
-	instance_create_layer(x, y, layer, item_eirframe_weapon_mg_browning),
-	instance_create_layer(x, y, layer, item_eirframe_weapon_mg_browning),
-	instance_create_layer(x, y, layer, item_eirframe_weapon_mg_browning),
-	instance_create_layer(x, y, layer, item_eirframe_weapon_mg_browning)
+	instance_create_layer(x, y, layer, part_eirframe_weapon_mg_browning),
+	instance_create_layer(x, y, layer, part_eirframe_weapon_mg_browning),
+	instance_create_layer(x, y, layer, part_eirframe_weapon_mg_browning),
+	instance_create_layer(x, y, layer, part_eirframe_weapon_mg_browning)
 ];
 primary_weapon_x_offset_distance = 0;
 primary_weapon_y_offset_distance = 0;
