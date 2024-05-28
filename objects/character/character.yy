@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"animus_humana_eirnaut",
+  "%Name":"character",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"animus_humana_eirnaut",
+  "name":"character",
   "overriddenProperties":[],
   "parent":{
-    "name":"eirnaut",
-    "path":"folders/Objects/types/animus/humana/eirnaut.yy",
+    "name":"character",
+    "path":"folders/Objects/types/character.yy",
   },
   "parentObjectId":{
-    "name":"animus_humana",
-    "path":"objects/animus_humana/animus_humana.yy",
+    "name":"core",
+    "path":"objects/core/core.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

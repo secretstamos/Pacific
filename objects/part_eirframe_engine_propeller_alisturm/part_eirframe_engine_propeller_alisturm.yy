@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"alisturm_e",
+    "path":"sprites/alisturm_e/alisturm_e.yy",
+  },
   "spriteMaskId":{
     "name":"alisturm_e",
     "path":"sprites/alisturm_e/alisturm_e.yy",

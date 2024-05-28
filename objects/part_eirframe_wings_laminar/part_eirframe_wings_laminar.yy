@@ -12,8 +12,8 @@
     "path":"folders/Objects/part/eirframe/wings.yy",
   },
   "parentObjectId":{
-    "name":"part",
-    "path":"objects/part/part.yy",
+    "name":"part_eirframe_wings",
+    "path":"objects/part_eirframe_wings/part_eirframe_wings.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

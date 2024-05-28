@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"part_eirframe_chasis_mustang",
+  "%Name":"character_human_eirnaut",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_eirframe_chasis_mustang",
+  "name":"character_human_eirnaut",
   "overriddenProperties":[],
   "parent":{
-    "name":"chasis",
-    "path":"folders/Objects/part/eirframe/chasis.yy",
+    "name":"eirnaut",
+    "path":"folders/Objects/types/character/human/eirnaut.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe_chasis",
-    "path":"objects/part_eirframe_chasis/part_eirframe_chasis.yy",
+    "name":"character_human",
+    "path":"objects/character_human/character_human.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"mustang_e",
-    "path":"sprites/mustang_e/mustang_e.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

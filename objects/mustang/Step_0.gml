@@ -17,6 +17,7 @@ if (eirframe_engine.engine_on) {
     // Apply thrust only when the W key is pressed
     x += dir_x * eirframe_engine.engine_thrust;
     y += dir_y * eirframe_engine.engine_thrust;
+	eirframe_trail.image_alpha = 255;
 }
 else{
 	current_thrust = current_thrust * .99
@@ -26,6 +27,7 @@ else{
 	
     // Gravity
     y += eirframe_weight; // Adjust the value as needed
+	eirframe_trail.image_alpha = 0;
 }
 
 array_foreach(eirframe_parts, function (eirframe_part) {
@@ -68,43 +70,51 @@ while (angle >= 360) {
 
 // Check the direction and set the appropriate sprite
 if ((angle > 337.5 && angle <= 360) || (angle >= 0 && angle <= 22.5)) {
+    eirframe_chasis.sprite_index = sprite_e;       // Right
 	eirframe_engine.sprite_index = eirframe_engine.sprite_e;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_e;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_e;
-	    eirframe_chasis.sprite_index = sprite_e;       // Right
+	eirframe_trail.sprite_index = eirframe_trail.sprite_e;
 } else if (angle > 22.5 && angle <= 67.5) {
+    eirframe_chasis.sprite_index = sprite_ne;    // Up-Right
 	eirframe_engine.sprite_index = eirframe_engine.sprite_ne;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_ne;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_ne;
-	    eirframe_chasis.sprite_index = sprite_e;       // Right
+	eirframe_trail.sprite_index = eirframe_trail.sprite_ne;
 } else if (angle > 67.5 && angle <= 112.5) {
+    eirframe_chasis.sprite_index = sprite_n;          // Up
 	eirframe_engine.sprite_index = eirframe_engine.sprite_n;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_n;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_n;
-	eirframe_chasis.sprite_index = sprite_e;       // Right
+	eirframe_trail.sprite_index = eirframe_trail.sprite_n;
 } else if (angle > 112.5 && angle <= 157.5) {
+    eirframe_chasis.sprite_index = sprite_ne;     // Up-Left
 	eirframe_engine.sprite_index = eirframe_engine.sprite_ne;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_ne;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_ne;
-	    eirframe_chasis.sprite_index = sprite_ne;     // Up-Left
+	eirframe_trail.sprite_index = eirframe_trail.sprite_ne;
 } else if (angle > 157.5 && angle <= 202.5) {
+    eirframe_chasis.sprite_index = sprite_e;        // Left
 	eirframe_engine.sprite_index = eirframe_engine.sprite_e;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_e;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_e;
-	eirframe_chasis.sprite_index = sprite_e;        // Left
+	eirframe_trail.sprite_index = eirframe_trail.sprite_e;
 } else if (angle > 202.5 && angle <= 247.5) {
+    eirframe_chasis.sprite_index = sprite_se;   // Down-Left
 	eirframe_engine.sprite_index = eirframe_engine.sprite_se;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_se;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_se;
-	eirframe_chasis.sprite_index = sprite_se;   // Down-Left
+	eirframe_trail.sprite_index = eirframe_trail.sprite_se;
 } else if (angle > 247.5 && angle <= 292.5) {
+    eirframe_chasis.sprite_index = sprite_s;        // Down
 	eirframe_engine.sprite_index = eirframe_engine.sprite_s;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_s;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_s;
-	eirframe_chasis.sprite_index = sprite_s;        // Down
+	eirframe_trail.sprite_index = eirframe_trail.sprite_s;
 } else if (angle > 292.5 && angle <= 337.5) {
+    eirframe_chasis.sprite_index = sprite_se;  // Down-Right
 	eirframe_engine.sprite_index = eirframe_engine.sprite_se;
 	eirframe_rudder.sprite_index = eirframe_rudder.sprite_se;
 	eirframe_wings.sprite_index = eirframe_wings.sprite_se;
-	eirframe_chasis.sprite_index = sprite_se;  // Down-Right
+	eirframe_trail.sprite_index = eirframe_trail.sprite_se;
 }

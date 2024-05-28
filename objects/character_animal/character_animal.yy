@@ -8,12 +8,12 @@
   "name":"character_animal",
   "overriddenProperties":[],
   "parent":{
-    "name":"creatura",
-    "path":"folders/Objects/types/animus/creatura.yy",
+    "name":"creature",
+    "path":"folders/Objects/types/character/creature.yy",
   },
   "parentObjectId":{
-    "name":"animus",
-    "path":"objects/animus/animus.yy",
+    "name":"character",
+    "path":"objects/character/character.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mustang_e",
-    "path":"sprites/mustang_e/mustang_e.yy",
+    "name":"sprite_trail",
+    "path":"sprites/sprite_trail/sprite_trail.yy",
   },
   "spriteMaskId":null,
   "visible":true,

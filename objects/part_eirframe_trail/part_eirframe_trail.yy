@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"animus_humana",
+  "%Name":"part_eirframe_trail",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"animus_humana",
+  "name":"part_eirframe_trail",
   "overriddenProperties":[],
   "parent":{
-    "name":"humana",
-    "path":"folders/Objects/types/animus/humana.yy",
+    "name":"trail",
+    "path":"folders/Objects/types/part/eirframe/trail.yy",
   },
   "parentObjectId":{
-    "name":"animus",
-    "path":"objects/animus/animus.yy",
+    "name":"part",
+    "path":"objects/part/part.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

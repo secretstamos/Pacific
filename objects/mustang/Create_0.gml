@@ -10,12 +10,14 @@ eirframe_wings = instance_create_layer(x, y, layer, part_eirframe_wings_laminar)
 eirframe_engine = instance_create_layer(x, y, layer, part_eirframe_engine_propeller_alisturm);
 eirframe_rudder = instance_create_layer(x, y, layer, part_eirframe_rudder_balanced);
 eirframe_chasis = instance_create_layer(x, y, layer, part_eirframe_chasis_mustang);
+eirframe_trail = instance_create_layer(x, y, layer, part_eirframe_trail_trail);
 
 eirframe_parts = [
+eirframe_chasis,
 eirframe_engine,
 eirframe_rudder,
 eirframe_wings,
-eirframe_chasis
+eirframe_trail
 ];
 
 // Eirframe Physics variables

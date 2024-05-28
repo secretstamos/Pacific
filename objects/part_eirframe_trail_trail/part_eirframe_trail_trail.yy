@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"part_eirframe_chasis_mustang",
+  "%Name":"part_eirframe_trail_trail",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_eirframe_chasis_mustang",
+  "name":"part_eirframe_trail_trail",
   "overriddenProperties":[],
   "parent":{
-    "name":"chasis",
-    "path":"folders/Objects/part/eirframe/chasis.yy",
+    "name":"trail",
+    "path":"folders/Objects/part/eirframe/trail.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe_chasis",
-    "path":"objects/part_eirframe_chasis/part_eirframe_chasis.yy",
+    "name":"part_eirframe_trail",
+    "path":"objects/part_eirframe_trail/part_eirframe_trail.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"mustang_e",
-    "path":"sprites/mustang_e/mustang_e.yy",
+    "name":"trail_e",
+    "path":"sprites/trail_e/trail_e.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"animus",
+  "%Name":"character_human",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"animus",
+  "name":"character_human",
   "overriddenProperties":[],
   "parent":{
-    "name":"animus",
-    "path":"folders/Objects/types/animus.yy",
+    "name":"human",
+    "path":"folders/Objects/types/character/human.yy",
   },
   "parentObjectId":{
-    "name":"core",
-    "path":"objects/core/core.yy",
+    "name":"character",
+    "path":"objects/character/character.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
