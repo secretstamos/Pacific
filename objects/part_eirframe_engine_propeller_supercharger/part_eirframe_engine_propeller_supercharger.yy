@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"part_eirframe_wings",
+  "%Name":"part_eirframe_engine_propeller_supercharger",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_eirframe_wings",
+  "name":"part_eirframe_engine_propeller_supercharger",
   "overriddenProperties":[],
   "parent":{
-    "name":"wings",
-    "path":"folders/Objects/types/part/eirframe/wings.yy",
+    "name":"propeller",
+    "path":"folders/Objects/part/eirframe/engine/propeller.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe",
-    "path":"objects/part_eirframe/part_eirframe.yy",
+    "name":"part_eirframe_engine_propeller",
+    "path":"objects/part_eirframe_engine_propeller/part_eirframe_engine_propeller.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,9 +34,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"trail_e",
-    "path":"sprites/trail_e/trail_e.yy",
+    "name":"alisturm_e",
+    "path":"sprites/alisturm_e/alisturm_e.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"alisturm_e",
+    "path":"sprites/alisturm_e/alisturm_e.yy",
+  },
   "visible":true,
 }

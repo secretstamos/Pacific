@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"part_eirframe_wings",
+  "%Name":"character_human_eirnaut_confed",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_eirframe_wings",
+  "name":"character_human_eirnaut_confed",
   "overriddenProperties":[],
   "parent":{
-    "name":"wings",
-    "path":"folders/Objects/types/part/eirframe/wings.yy",
+    "name":"eirnaut",
+    "path":"folders/Objects/character/human/eirnaut.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe",
-    "path":"objects/part_eirframe/part_eirframe.yy",
+    "name":"character_human_eirnaut",
+    "path":"objects/character_human_eirnaut/character_human_eirnaut.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"trail_e",
-    "path":"sprites/trail_e/trail_e.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

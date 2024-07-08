@@ -6,4 +6,4 @@ engine_rotation_speed_on = 2;
 engine_rotation_speed_off = 5;
 engine_rotation_speed = engine_rotation_speed_off;
 
-base_sprite_root = "alisturm";
+base_sprite_root = "supercharger";

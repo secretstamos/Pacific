@@ -12,8 +12,8 @@
     "path":"folders/Objects/types/part/eirframe/chasis.yy",
   },
   "parentObjectId":{
-    "name":"part",
-    "path":"objects/part/part.yy",
+    "name":"part_eirframe",
+    "path":"objects/part_eirframe/part_eirframe.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

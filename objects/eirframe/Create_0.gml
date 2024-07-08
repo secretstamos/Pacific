@@ -1,9 +1,11 @@
-//Sprites
-sprite_e = mustang_e;
-sprite_n = mustang_n;
-sprite_ne = mustang_ne;
-sprite_s = mustang_s;
-sprite_se = mustang_se;
+// Eirframe Physics variables
+eirframe_weight = 3;
+image_angle = 0; // Initial angle of the player eirframe (facing right)
+dir_x = 0;
+dir_y = 0;
+health = 200;
+sprite_direction = "";
+
 
 //Eirframes parts
 eirframe_wings = instance_create_layer(x, y, layer, part_eirframe_wings_laminar);
@@ -20,20 +22,13 @@ eirframe_wings,
 eirframe_trail
 ];
 
-// Eirframe Physics variables
-eirframe_weight = 3;
-image_angle = 0; // Initial angle of the player eirframe (facing right)
-dir_x = 0;
-dir_y = 0;
-health = 200;
-
 //Eirframe Pilot variables
-eirframe_eirnaut = 1;
+eirframe_eirnaut = instance_create_layer(x, y, layer, character_human_eirnaut_confed);
 
 //Eirframe Armor variables
 eirframe_armor = 1;
 
-//Eirframe Engine variables
+//Eirframe Engine variables 
 current_thrust = eirframe_engine.engine_thrust;
 
 //Eirframe Weapon variables
