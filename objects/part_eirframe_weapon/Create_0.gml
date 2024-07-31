@@ -9,3 +9,4 @@ weapon_on_cooldown = false;
 accuracy = 50;
 capacity = 50;
 caliber = projectile;
+weapon_sound = undefined;

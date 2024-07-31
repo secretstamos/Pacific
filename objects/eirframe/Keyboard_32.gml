@@ -1,5 +1,6 @@
 array_foreach(eirframe_primary_weapons, function (primary_weapon) {
 	if (!primary_weapon.weapon_on_cooldown) {
+		audio_play_sound(primary_weapon.weapon_sound, 1, false);
 	    // Calculate offset from the eirframe's position    var offset_distance = 20; // Adjust this value to control the distance from the eirframe
 	    var offset_x = lengthdir_x(primary_weapon_x_offset_distance, image_angle);
 	    var offset_y = lengthdir_y(primary_weapon_y_offset_distance, image_angle);

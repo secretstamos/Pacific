@@ -3,7 +3,7 @@
   "%Name":"balanced_e",
   "bboxMode":0,
   "bbox_bottom":25,
-  "bbox_left":33,
+  "bbox_left":32,
   "bbox_right":40,
   "bbox_top":15,
   "collisionKind":1,

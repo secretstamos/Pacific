@@ -3,3 +3,4 @@ name = "";
 weight = 0;
 creation_date = "";
 original_owner = "";
+health = 0;
