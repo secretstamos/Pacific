@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"projectiles",
-    "path":"folders/Objects/types/part/eirframe/projectiles.yy",
+    "path":"folders/Objects/types/projectiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,

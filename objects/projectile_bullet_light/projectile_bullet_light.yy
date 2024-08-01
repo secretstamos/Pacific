@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"bullet",
-    "path":"folders/Objects/types/part/eirframe/projectiles/bullet.yy",
+    "path":"folders/Objects/types/projectiles/bullet.yy",
   },
   "parentObjectId":{
     "name":"projectile",
@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bullet_light",
-    "path":"sprites/bullet_light/bullet_light.yy",
+    "name":"light_bullet_double",
+    "path":"sprites/light_bullet_double/light_bullet_double.yy",
   },
   "spriteMaskId":null,
   "visible":true,

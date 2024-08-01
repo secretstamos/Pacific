@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"frame_e",
-    "path":"sprites/frame_e/frame_e.yy",
+    "name":"sprite_trail",
+    "path":"sprites/sprite_trail/sprite_trail.yy",
   },
   "spriteMaskId":null,
   "visible":true,
