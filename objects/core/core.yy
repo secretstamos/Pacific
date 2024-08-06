@@ -8,8 +8,8 @@
   "name":"core",
   "overriddenProperties":[],
   "parent":{
-    "name":"types",
-    "path":"folders/Objects/types.yy",
+    "name":"interfaces",
+    "path":"folders/Objects/interfaces.yy",
   },
   "parentObjectId":null,
   "persistent":false,

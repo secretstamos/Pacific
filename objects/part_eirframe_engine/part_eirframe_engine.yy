@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"engine",
-    "path":"folders/Objects/types/part/eirframe/engine.yy",
+    "path":"folders/Objects/interfaces/part/eirframe/engine.yy",
   },
   "parentObjectId":{
     "name":"part_eirframe",

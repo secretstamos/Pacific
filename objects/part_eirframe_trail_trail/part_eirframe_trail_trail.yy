@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"trail",
-    "path":"folders/Objects/part/eirframe/trail.yy",
+    "path":"folders/Objects/parts/eirframe/trail.yy",
   },
   "parentObjectId":{
     "name":"part_eirframe_trail",

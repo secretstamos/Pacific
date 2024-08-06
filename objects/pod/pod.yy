@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"part_eirframe_weapon_lightmg",
+  "%Name":"pod",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_eirframe_weapon_lightmg",
+  "name":"pod",
   "overriddenProperties":[],
   "parent":{
-    "name":"mg",
-    "path":"folders/Objects/part/eirframe/weapon/mg.yy",
+    "name":"pod",
+    "path":"folders/Objects/interfaces/part/eirframe/pod.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe_weapon_machinegun",
-    "path":"objects/part_eirframe_weapon_machinegun/part_eirframe_weapon_machinegun.yy",
+    "name":"part_eirframe",
+    "path":"objects/part_eirframe/part_eirframe.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,5 +34,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

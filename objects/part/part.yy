@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"part",
-    "path":"folders/Objects/types/part.yy",
+    "path":"folders/Objects/interfaces/part.yy",
   },
   "parentObjectId":{
     "name":"core",

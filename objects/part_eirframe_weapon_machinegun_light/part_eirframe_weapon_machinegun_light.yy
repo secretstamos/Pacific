@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"part_human",
+  "%Name":"part_eirframe_weapon_machinegun_light",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_human",
+  "name":"part_eirframe_weapon_machinegun_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"human",
-    "path":"folders/Objects/interfaces/part/human.yy",
+    "name":"light",
+    "path":"folders/Objects/parts/eirframe/weapon/machinegun/light.yy",
   },
   "parentObjectId":{
-    "name":"part",
-    "path":"objects/part/part.yy",
+    "name":"part_eirframe_weapon_machinegun",
+    "path":"objects/part_eirframe_weapon_machinegun/part_eirframe_weapon_machinegun.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,5 +34,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

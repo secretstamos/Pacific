@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"wings",
-    "path":"folders/Objects/types/part/eirframe/wings.yy",
+    "path":"folders/Objects/interfaces/part/eirframe/wings.yy",
   },
   "parentObjectId":{
     "name":"part_eirframe",

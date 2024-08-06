@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"rudder",
-    "path":"folders/Objects/types/part/eirframe/rudder.yy",
+    "path":"folders/Objects/interfaces/part/eirframe/rudder.yy",
   },
   "parentObjectId":{
     "name":"part_eirframe",

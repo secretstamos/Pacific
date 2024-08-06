@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"agile",
-    "path":"folders/Objects/types/part/eirframe/rudder/agile.yy",
+    "path":"folders/Objects/interfaces/part/eirframe/rudder/agile.yy",
   },
   "parentObjectId":{
     "name":"part_eirframe",

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"character",
-    "path":"folders/Objects/types/character.yy",
+    "path":"folders/Objects/interfaces/character.yy",
   },
   "parentObjectId":{
     "name":"core",

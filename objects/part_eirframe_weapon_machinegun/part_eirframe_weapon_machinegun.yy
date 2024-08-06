@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"machinegun",
-    "path":"folders/Objects/types/part/eirframe/weapon/machinegun.yy",
+    "path":"folders/Objects/interfaces/part/eirframe/weapon/machinegun.yy",
   },
   "parentObjectId":{
     "name":"part_eirframe_weapon",

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"pilot",
-    "path":"folders/Objects/part/human/pilot.yy",
+    "path":"folders/Objects/parts/human/pilot.yy",
   },
   "parentObjectId":{
     "name":"part_human_pilot",

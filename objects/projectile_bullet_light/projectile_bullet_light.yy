@@ -10,8 +10,8 @@
   "name":"projectile_bullet_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"bullet",
-    "path":"folders/Objects/types/projectiles/bullet.yy",
+    "name":"light",
+    "path":"folders/Objects/interfaces/projectiles/bullet/light.yy",
   },
   "parentObjectId":{
     "name":"projectile",
@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"light_bullet_double",
-    "path":"sprites/light_bullet_double/light_bullet_double.yy",
+    "name":"bullet_light",
+    "path":"sprites/bullet_light/bullet_light.yy",
   },
   "spriteMaskId":null,
   "visible":true,

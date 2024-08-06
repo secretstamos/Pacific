@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"creature",
-    "path":"folders/Objects/types/character/creature.yy",
+    "path":"folders/Objects/interfaces/character/creature.yy",
   },
   "parentObjectId":{
     "name":"character",
