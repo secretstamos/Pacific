@@ -88,4 +88,5 @@ if(array_length(eirframe_parts) != 0){
 	if (y > room_height) {
 	    y = 0;
 	}
+	
 }

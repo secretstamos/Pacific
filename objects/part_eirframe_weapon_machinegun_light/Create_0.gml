@@ -8,3 +8,4 @@ weapon_cooldown = 8;
 weapon_accuracy = 20;
 weapon_capacity = 50;
 weapon_round = projectile_bullet_light;
+weapon_sound = gunshot3;

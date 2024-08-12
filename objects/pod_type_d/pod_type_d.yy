@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"part_eirframe_trail_trail",
+  "%Name":"pod_type_d",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"part_eirframe_trail_trail",
+  "name":"pod_type_d",
   "overriddenProperties":[],
   "parent":{
-    "name":"trail",
-    "path":"folders/Objects/parts/eirframe/trail.yy",
+    "name":"pod",
+    "path":"folders/Objects/parts/eirframe/pod.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe_trail",
-    "path":"objects/part_eirframe_trail/part_eirframe_trail.yy",
+    "name":"pod",
+    "path":"objects/pod/pod.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

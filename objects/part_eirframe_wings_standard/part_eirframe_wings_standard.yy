@@ -8,12 +8,12 @@
   "name":"part_eirframe_wings_standard",
   "overriddenProperties":[],
   "parent":{
-    "name":"wings",
-    "path":"folders/Objects/interfaces/part/eirframe/wings.yy",
+    "name":"standard",
+    "path":"folders/Objects/interfaces/part/eirframe/wings/standard.yy",
   },
   "parentObjectId":{
-    "name":"part_eirframe",
-    "path":"objects/part_eirframe/part_eirframe.yy",
+    "name":"part_eirframe_wings",
+    "path":"objects/part_eirframe_wings/part_eirframe_wings.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"trail_e",
-    "path":"sprites/trail_e/trail_e.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

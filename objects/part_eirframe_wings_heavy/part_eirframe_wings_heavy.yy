@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"trail_e",
-    "path":"sprites/trail_e/trail_e.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

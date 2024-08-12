@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"part_eirframe_wings_get_pod_quality",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"part_eirframe_wings_get_pod_quality",
+  "parent":{
+    "name":"wings",
+    "path":"folders/Objects/interfaces/part/eirframe/wings.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

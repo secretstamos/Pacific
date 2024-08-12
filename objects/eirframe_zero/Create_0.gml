@@ -18,7 +18,10 @@ eirframe_wings,
 eirframe_trail,
 ];
 
+eirframe_wings.pod_left_root.itemHeld = instance_create_layer(x, y, layer, part_eirframe_weapon_machinegun_light_double);
+eirframe_wings.pod_right_root.itemHeld = instance_create_layer(x, y, layer, part_eirframe_weapon_machinegun_light_double);
+
 eirframe_primary_weapons = [
-	instance_create_layer(x, y, layer, part_eirframe_weapon_machinegun_light_double),
-	instance_create_layer(x, y, layer, part_eirframe_weapon_machinegun_light_double),
+	eirframe_wings.pod_left_root.itemHeld,
+	eirframe_wings.pod_right_root.itemHeld,
 ];

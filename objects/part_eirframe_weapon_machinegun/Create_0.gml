@@ -7,5 +7,3 @@ weapon_cooldown = 4;
 //Round values
 weapon_accuracy = 5;
 weapon_capacity = 50;
-weapon_round = projectile_bullet_light;
-weapon_sound = gun3;
